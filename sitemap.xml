@@ -77,15 +77,6 @@
     
     <url>
     
-      <loc>/services/services/</loc>
-      <lastmod>2017-09-03T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/post/widgets/</loc>
       <lastmod>2016-04-19T00:00:00-04:00</lastmod>
     </url>
@@ -236,16 +227,6 @@
     
       <loc>/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/services/</loc>
-      <lastmod>2017-09-03T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
