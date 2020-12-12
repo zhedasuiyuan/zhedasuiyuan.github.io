@@ -45,7 +45,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="/publication/sandwich/">
+  <link rel="canonical" href="/publication/mmfilter/">
 
   
 <script type="text/javascript">
@@ -67,7 +67,7 @@ counter"></a></div></noscript>
 
 
 
-  <title>Interactive Planning-based Cognitive Assistance on the Edge | Zhiming Hu&#39;s Homepage</title>
+  <title>mmFilter: Language-Guided Video Analytics at the Edge | Zhiming Hu&#39;s Homepage</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -167,10 +167,10 @@ counter"></a></div></noscript>
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">Interactive Planning-based Cognitive Assistance on the Edge</h1>
+    <h1 itemprop="name">mmFilter: Language-Guided Video Analytics at the Edge</h1>
     <span class="pub-authors" itemprop="author">
       
-      Zhiming Hu, Maayan Shvo, Allan Jepson, and Iqbal Mohomed
+      Zhiming Hu, Ning Ye, Caleb Phillips, Tim Capes and Iqbal Mohomed
       
     </span>
     <span class="pull-right">
@@ -179,35 +179,35 @@ counter"></a></div></noscript>
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Interactive%20Planning-based%20Cognitive%20Assistance%20on%20the%20Edge&amp;url=%2fpublication%2fsandwich%2f"
+         href="https://twitter.com/intent/tweet?text=mmFilter%3a%20Language-Guided%20Video%20Analytics%20at%20the%20Edge&amp;url=%2fpublication%2fmmfilter%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fsandwich%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fmmfilter%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fsandwich%2f&amp;title=Interactive%20Planning-based%20Cognitive%20Assistance%20on%20the%20Edge"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fmmfilter%2f&amp;title=mmFilter%3a%20Language-Guided%20Video%20Analytics%20at%20the%20Edge"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fsandwich%2f&amp;title=Interactive%20Planning-based%20Cognitive%20Assistance%20on%20the%20Edge"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fmmfilter%2f&amp;title=mmFilter%3a%20Language-Guided%20Video%20Analytics%20at%20the%20Edge"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Interactive%20Planning-based%20Cognitive%20Assistance%20on%20the%20Edge&amp;body=%2fpublication%2fsandwich%2f">
+         href="mailto:?subject=mmFilter%3a%20Language-Guided%20Video%20Analytics%20at%20the%20Edge&amp;body=%2fpublication%2fmmfilter%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -224,7 +224,7 @@ counter"></a></div></noscript>
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Real-time cognitive assistance is one of the most exciting applications in the age of Augmented Reality (AR). Several research groups have explored the use of cognitive assistants, embodied within smartphones or wearable AR glasses, to guide users through unfamiliar tasks (e.g., assembling a piece of furniture or following a recipe). These systems generally consist of two high-level modules: a perceptual module (e.g., a deep-learning based vision system) and a cognitive module (implemented via a rule-engine or state machine), and must operate in near real-time. As such, cognitive assistants are illustrative use-cases for edge computing. While prior work has focused on pushing the frontier of what is possible, it suffers from some defects that hinder practical deployment. First, much research on cognitive assistants has assumed an accurate visual perception system, which may not be true in practice. Second, while some work has explored user errors in performance of tasks, the manner in which this is done is not scalable (i.e., possible errors are explicitly specified in a state machine representation apriori). To address these limitations, in this paper, we propose (i) to involve users in resolving the ambiguity/uncertainty of visual inputs and (ii) to employ automated planning tools as well as execution monitoring techniques to keep track of the task states, as well as to generate new plans to recover from users&rsquo; mistakes if necessary. To verify the feasibility of our system, we implemented and tested it on both an Android phone and HoloLens 2, supported by an edge server for off-loading computation.</p>
+  <p class="pub-abstract" itemprop="text">Advances in deep learning have shown promising potential in scalable video analytics in the cloud. However, in constrained settings, it is not feasible to send every video frame from cameras at the edge. Being selective about which frames should be sent to the cloud reduces bandwidth consumption, conserves energy, and protects user privacy. Existing solutions to edge-based filtering primarily focus on object detection and train binary classifiers to suppress transmission of irrelevant frames. This is both hard to scale when the queries of interest can change rapidly and infeasible for complex queries specified with natural language. In this paper, we propose mmFilter, a multimodal approach for filtering video streams matching predefined events (defined via natural language queries) at the edge. mmFilter learns compact representations for video and text data and automatically matches semantically similar pairs in a joint embedding space. Our model generalizes to various unseen queries, allowing new, complex queries to be added to the system in real time without retraining. We have implemented and evaluated our system on popular video datasets such as ActivityNet Captions and MSRVTT. mmFilter has shown a 1.5   imes× improvement in event detection accuracy comparing with the state-of-the-art filtering approach.</p>
 
   
   <div class="row">
@@ -251,7 +251,7 @@ counter"></a></div></noscript>
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">3rd USENIX Workshop on Hot Topics in Edge Computing.</div>
+        <div class="col-xs-12 col-sm-9">Proc. of the International Middleware Conference 2020 - Industry Track.</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -264,7 +264,7 @@ counter"></a></div></noscript>
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          June, 2020
+          October, 2020
         </div>
       </div>
     </div>
@@ -284,22 +284,18 @@ counter"></a></div></noscript>
 
 
 
-<a class="btn btn-primary btn-outline" href="/papers/hotedge20.pdf">
+<a class="btn btn-primary btn-outline" href="/papers/mmFilter.pdf">
   PDF
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="/papers/hotedge20-paper71-slides-hu.pdf">
-  Slides
+
+
+
+
+<a class="btn btn-primary btn-outline" href="/project/big_data_processing">
+  Project
 </a>
-
-
-<a class="btn btn-primary btn-outline" href="https://youtu.be/RttF2NBBWh8">
-  Video
-</a>
-
-
-
 
 
 
@@ -321,13 +317,10 @@ counter"></a></div></noscript>
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="/publication/videopipe/"><span
-      aria-hidden="true">&larr;</span> VideoPipe: Building Video Stream Processing Pipelines at the Edge</a></li>
+    <li class="previous"><a href="/publication/sandwich/"><span
+      aria-hidden="true">&larr;</span> Interactive Planning-based Cognitive Assistance on the Edge</a></li>
     
 
-    
-    <li class="next"><a href="/publication/mmfilter/">mmFilter: Language-Guided Video Analytics at the Edge <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
